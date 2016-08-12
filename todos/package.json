@@ -1,0 +1,8 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "routes": {
+    "GET": ["getTodos"],
+    "POST": ["addTodo"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "functions-example",
+  "version": "1.0.0",
+  "description": "> This is event not a prototype. Just looking for ideas.     > Dont meet this repo with serious intentions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "route-aliases": {
+    "/add-todo": ["POST", "todos", "1.0.0", "addTodo"],
+    "/get-todos": ["GET", "todos", "1.0.0", "getTodos"]
+  }
+}
